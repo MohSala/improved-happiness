@@ -45,7 +45,7 @@ app.use(express.json())
 
 app.get("/api", (req, res) => {
     console.log("yeah it ran");
-    res.send("hello there ")
+    res.send("hello there!!!")
 })
 
 app.use("/api/v1/posts", postRouter);
